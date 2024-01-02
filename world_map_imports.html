@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mängden importerat plastavfall år 2017</title>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+</head>
+<body>
+
+<div id="container" style="width: 100%; height: 800px;"></div>
+
+<script>
+// Läs in din JSON-data
+fetch('diagram/plastic-pollution.json')
+    .then(response => response.json())
+    .then(rawData => {
+        let structuredData = {};
+        rawData.forEach(item => {
+            if (item.Code && item.Code != '') { // Endast inkludera poster med en giltig landskod
+                let year = item.Year;
+                let code = item.Code;
+                let value = item['Imports of plastic waste via all modes of transport'];
+                
+                if (!structuredData[year]) {
+                    structuredData[year] = [];
+                }
+                structuredData[year].push({ code: code, value: value });
+            }
+        });
+
+        // Skapa Highcharts-karta med den bearbetade datan
+        Highcharts.mapChart('container', {
+            chart: {
+                map: 'custom/world'
+            },
+            title: {
+                text: 'Mängden importerat plastavfall år 2017 '
+            },
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+            plotOptions: {
+                series: {
+                    borderColor: 'black', // Ändra till önskad gränsfärg
+                    borderWidth: 1, // Ändra för att justera bredden på gränserna
+                }
+            },
+
+            colorAxis: {
+                dataClasses: [{
+                    from: -1,
+                    to: 0,
+                    name: 'Värde saknas',
+                    color: "#dedede"
+                },{
+                    from: 0,
+                    to: 500,
+                    color: "#acceff" // Färg för 0 - 500 ton
+                }, {
+                    from: 500,
+                    to: 5000,
+                    color: "#74adff" // Färg för 500 - 5000 ton
+                }, {
+                    from: 5000,
+                    to: 50000,
+                    color: "#237fff" // Färg för 5000 - 50 000 ton
+                }, {
+                    from: 50000,
+                    to: 500000,
+                    color: "#0059d7" // Färg för 50 000 - 500 000 ton
+                }, {
+                    from: 500000,
+                    color: "#003a8c" // Färg för över 500 000 ton
+                }]
+            },
+
+            series: [{
+                data: structuredData[2010], // Exempel för år 2019
+                joinBy: ['iso-a3', 'code'],
+                name: 'Importerat plastavfall',
+                states: {
+                    hover: {
+                        color: '#d49050'
+                    }
+                },
+            }],
+        });
+    })
+    .catch(error => {
+        console.error('Error loading the data:', error);
+    });
+</script>
+
+</body>
+</html>

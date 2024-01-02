@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Felhanterat plastavfall per capita vs GDP per capita år 2019</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="container" style="width:100%; height:400px;"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('diagram/mismanaged_GDP.json')
+                .then(response => response.json())
+                .then(data => {
+                    var seriesData = prepareSeriesData(data);
+                    Highcharts.chart('container', {
+                        chart: {
+                            type: 'scatter',
+                            zoomType: 'xy'
+                        },
+                        title: {
+                            text: 'Felhanterat plastavfall per capita vs GDP per capita år 2019'
+                        },
+                        xAxis: {
+                            title: {
+                                enabled: true,
+                                text: 'GDP per capita (USD)'
+                            }
+                        },
+                        yAxis: {
+                            title: {
+                                text: 'Felhanterat plastavfall per capita (kg per år)'
+                            }
+                        },
+                        tooltip: {
+                            headerFormat: '<b>{point.name}</b><br>',
+                            pointFormat: '<b>{point.name}</b><br><br><b>GDP per capita:</b> {point.x} USD<br><b>Plastavfall:</b> {point.y} kg/år'
+                        },
+                        series: seriesData
+                    });
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        });
+
+        function prepareSeriesData(data) {
+            var seriesData = {};
+            data.forEach(record => {
+                var continent = record.Continent || 'Unknown';
+                if (!seriesData[continent]) {
+                    seriesData[continent] = {
+                        name: continent,
+                        data: []
+                    };
+                }
+                if (record['GDP per capita, PPP (constant 2017 international $)'] && record['Mismanaged plastic waste per capita (kg per year)']) {
+                    seriesData[continent].data.push({
+                        name: record.Entity,
+                        x: parseFloat(record['GDP per capita, PPP (constant 2017 international $)']),
+                        y: parseFloat(record['Mismanaged plastic waste per capita (kg per year)'])
+                    });
+                }
+            });
+            return Object.values(seriesData);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+.header-text {
+    color: $textColor;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+
+    &-main {
+      display: block;
+      font-size: 4rem;
+      font-weight: 400;
+      letter-spacing: 2rem;
+      margin-bottom: 2rem;
+      animation-name: moveInLeft;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+    }
+
+    &-sub {
+      display: block;
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 1rem;
+      animation: moveInRight 1s ease-out;
+    }
+  }
+
+.header-first {
+  color: $textColor;
+  font-family: $fontStack;
+  font-size: $header-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-left: 0 auto;
+}
+
+.header-big {
+  color: $textColor;
+  font-family: $fontStack;
+  font-size: $header-big;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-left: 0 auto;
+}
+
+.paragraph {
+  color: $textColor;
+  font-size: $paragraph-font-size;
+  font-family: $fontStack;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 650px;
+  padding: 2rem;
+}
+
+
+
+
+

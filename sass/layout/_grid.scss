@@ -1,0 +1,135 @@
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    .image-container {
+        width: 100%; 
+        height: 750px; 
+        overflow: hidden; 
+        margin-top: -25rem;
+      }
+      
+      .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        object-position: bottom;
+      }
+      
+    
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+
+    @include clearfix;
+
+    [class^="col-"]:not(.col-1) {
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+        }
+    }
+
+    .col-1 {
+        width: calc((100% - #{$gutter-horizontal}) /1);
+        display: block;
+        margin: 0 auto;
+
+        .header-first {
+            @include standard-margin;
+        }
+
+        .composition-diagram {
+            margin-top: 10rem;
+            height: 420px;
+        }
+    }
+
+    .header-big-container {
+        width: 100%;
+        @include big-margin;
+
+        hr {
+            border: none; 
+            height: 2px; 
+            background-color: $textColor;
+            width: 500px;
+            margin: 60px auto;
+        }
+    }
+
+    .col-2 {
+        width: calc((100% - #{$gutter-horizontal}) /2);
+
+        .header-first {
+            margin-top: -19rem;
+        }
+
+        .composition-diagram {
+            height: 450px;
+            @include col-margin;
+        }
+    }
+
+    .col-3 {
+        width: calc((100% - #{$gutter-horizontal}) /2);
+        @include col-margin;
+
+        .paragraph-right {
+            height: 500px;
+            margin-left: -1rem;
+        }
+
+        .paragraph-left {
+            height: 500px;
+            margin-right: -1rem;
+        }
+    }
+
+    .col-4 {
+        width: calc((100% - #{$gutter-horizontal}) /2);
+
+        .composition-diagram-right {
+            height: 900px;
+            margin-left: -2.5rem;
+        }
+
+        .composition-diagram-left {
+            height: 900px;
+            margin-right: -2.5rem;
+            margin-left: 1.5rem;
+        }
+    }
+
+    .col-5 {
+        width: calc((100% - #{$gutter-horizontal}) /1);
+        display: block;
+        margin: 0 auto;
+        margin-top: -25rem;
+
+        .header-first {
+            margin-top: -12rem;
+        }
+
+        .composition-diagram {
+            margin-top: 40rem;
+            height: 900px;
+            margin-left: 2.5rem;
+        }
+    }
+
+    .col-6 {
+        width: calc((100% - #{$gutter-horizontal}) /2);
+        margin-top: -35rem;
+
+        #svg-penguin {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            height: 500px;
+            width: 500px;
+        }
+    }
+}
+
+

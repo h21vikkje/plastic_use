@@ -1,0 +1,18 @@
+.header {
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  
+  &-text-box {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.header-image {
+  height: 1800px;
+  width: 100%;  // Lägg till detta för att behålla bildens proportioner
+}

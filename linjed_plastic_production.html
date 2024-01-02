@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Pollution Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="myChartContainer" style="width:100%; height:400px;"></div>
+
+    <script>
+function createChart(data) {
+    Highcharts.chart('myChartContainer', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Global plastproduktion'
+        },
+        xAxis: {
+            title: {
+                text: 'År'
+            },
+            categories: data.map(item => item.Year.toString()) // Omvandlar Year till sträng
+        },
+        yAxis: {
+            title: {
+                text: 'Plasttillverkning (miljoner ton)'
+            }
+        },
+        series: [{
+            name: 'Plastproduktion',
+            data: data.map(item => item['Annual plastic production between 1950 and 2019'])
+        }]
+    });
+}
+
+fetch('diagram/global-plastics-production.json')
+    .then(response => response.json())
+    .then(jsonData => {
+        createChart(jsonData);
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+
+    </script>
+</body>
+</html>

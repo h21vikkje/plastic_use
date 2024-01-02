@@ -1,0 +1,992 @@
+[
+  {
+    "Entity": "Africa",
+    "Code": "",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.059822761
+  },
+  {
+    "Entity": "Albania",
+    "Code": "ALB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.543214162
+  },
+  {
+    "Entity": "Algeria",
+    "Code": "DZA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.134113767
+  },
+  {
+    "Entity": "Angola",
+    "Code": "AGO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.027022781
+  },
+  {
+    "Entity": "Antigua and Barbuda",
+    "Code": "ATG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.020618557
+  },
+  {
+    "Entity": "Argentina",
+    "Code": "ARG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.09238293
+  },
+  {
+    "Entity": "Asia",
+    "Code": "",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.172404698
+  },
+  {
+    "Entity": "Australia",
+    "Code": "AUS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.00126969
+  },
+  {
+    "Entity": "Bahamas",
+    "Code": "BHS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.051413882
+  },
+  {
+    "Entity": "Bahrain",
+    "Code": "BHR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Bangladesh",
+    "Code": "BGD",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.151122996
+  },
+  {
+    "Entity": "Barbados",
+    "Code": "BRB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.156794425
+  },
+  {
+    "Entity": "Belgium",
+    "Code": "BEL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.002946529
+  },
+  {
+    "Entity": "Belize",
+    "Code": "BLZ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.958974359
+  },
+  {
+    "Entity": "Benin",
+    "Code": "BEN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.138886535
+  },
+  {
+    "Entity": "Bosnia and Herzegovina",
+    "Code": "BIH",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001817631
+  },
+  {
+    "Entity": "Brazil",
+    "Code": "BRA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.179099739
+  },
+  {
+    "Entity": "Brunei",
+    "Code": "BRN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.309468822
+  },
+  {
+    "Entity": "Bulgaria",
+    "Code": "BGR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001
+  },
+  {
+    "Entity": "Burkina Faso",
+    "Code": "BFA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Cambodia",
+    "Code": "KHM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.067507733
+  },
+  {
+    "Entity": "Cameroon",
+    "Code": "CMR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.412389859
+  },
+  {
+    "Entity": "Canada",
+    "Code": "CAN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.006361765
+  },
+  {
+    "Entity": "Cape Verde",
+    "Code": "CPV",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Chile",
+    "Code": "CHL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.016990291
+  },
+  {
+    "Entity": "China",
+    "Code": "CHN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.049314957
+  },
+  {
+    "Entity": "Colombia",
+    "Code": "COL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.00856195
+  },
+  {
+    "Entity": "Comoros",
+    "Code": "COM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Congo",
+    "Code": "COG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.125627207
+  },
+  {
+    "Entity": "Costa Rica",
+    "Code": "CRI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.089144216
+  },
+  {
+    "Entity": "Cote d'Ivoire",
+    "Code": "CIV",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.186024808
+  },
+  {
+    "Entity": "Croatia",
+    "Code": "HRV",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.054237288
+  },
+  {
+    "Entity": "Cyprus",
+    "Code": "CYP",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.002502085
+  },
+  {
+    "Entity": "Democratic Republic of Congo",
+    "Code": "COD",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004839211
+  },
+  {
+    "Entity": "Denmark",
+    "Code": "DNK",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001559252
+  },
+  {
+    "Entity": "Djibouti",
+    "Code": "DJI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004106776
+  },
+  {
+    "Entity": "Dominica",
+    "Code": "DMA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.736111111
+  },
+  {
+    "Entity": "Dominican Republic",
+    "Code": "DOM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.584411956
+  },
+  {
+    "Entity": "East Timor",
+    "Code": "TLS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.552977572
+  },
+  {
+    "Entity": "Ecuador",
+    "Code": "ECU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.065385058
+  },
+  {
+    "Entity": "Egypt",
+    "Code": "EGY",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.024614496
+  },
+  {
+    "Entity": "El Salvador",
+    "Code": "SLV",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.125193678
+  },
+  {
+    "Entity": "Equatorial Guinea",
+    "Code": "GNQ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.298672566
+  },
+  {
+    "Entity": "Eritrea",
+    "Code": "ERI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.013726051
+  },
+  {
+    "Entity": "Estonia",
+    "Code": "EST",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.009049774
+  },
+  {
+    "Entity": "Europe",
+    "Code": "",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.007805317
+  },
+  {
+    "Entity": "Fiji",
+    "Code": "FJI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.41011236
+  },
+  {
+    "Entity": "Finland",
+    "Code": "FIN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "France",
+    "Code": "FRA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.003608168
+  },
+  {
+    "Entity": "French Guiana",
+    "Code": "GUF",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.024054983
+  },
+  {
+    "Entity": "Gabon",
+    "Code": "GAB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.20478601
+  },
+  {
+    "Entity": "Gambia",
+    "Code": "GMB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.179301533
+  },
+  {
+    "Entity": "Georgia",
+    "Code": "GEO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000750563
+  },
+  {
+    "Entity": "Germany",
+    "Code": "DEU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001604464
+  },
+  {
+    "Entity": "Ghana",
+    "Code": "GHA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.13758301
+  },
+  {
+    "Entity": "Greece",
+    "Code": "GRC",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.020624463
+  },
+  {
+    "Entity": "Grenada",
+    "Code": "GRD",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 1.160714286
+  },
+  {
+    "Entity": "Guadeloupe",
+    "Code": "GLP",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.01
+  },
+  {
+    "Entity": "Guatemala",
+    "Code": "GTM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.406234003
+  },
+  {
+    "Entity": "Guinea",
+    "Code": "GIN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.183775742
+  },
+  {
+    "Entity": "Guinea-Bissau",
+    "Code": "GNB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.128578865
+  },
+  {
+    "Entity": "Guyana",
+    "Code": "GUY",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 1.591315453
+  },
+  {
+    "Entity": "Haiti",
+    "Code": "HTI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.615200213
+  },
+  {
+    "Entity": "Honduras",
+    "Code": "HND",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.249948697
+  },
+  {
+    "Entity": "Hong Kong",
+    "Code": "HKG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.015061861
+  },
+  {
+    "Entity": "Iceland",
+    "Code": "ISL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "India",
+    "Code": "IND",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.092587331
+  },
+  {
+    "Entity": "Indonesia",
+    "Code": "IDN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.208158135
+  },
+  {
+    "Entity": "Iran",
+    "Code": "IRN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.01119232
+  },
+  {
+    "Entity": "Iraq",
+    "Code": "IRQ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001704401
+  },
+  {
+    "Entity": "Ireland",
+    "Code": "IRL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.02355592
+  },
+  {
+    "Entity": "Israel",
+    "Code": "ISR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.003873694
+  },
+  {
+    "Entity": "Italy",
+    "Code": "ITA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.006837325
+  },
+  {
+    "Entity": "Jamaica",
+    "Code": "JAM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.791723202
+  },
+  {
+    "Entity": "Japan",
+    "Code": "JPN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.014464764
+  },
+  {
+    "Entity": "Jordan",
+    "Code": "JOR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000099
+  },
+  {
+    "Entity": "Kazakhstan",
+    "Code": "KAZ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000700771
+  },
+  {
+    "Entity": "Kenya",
+    "Code": "KEN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004926389
+  },
+  {
+    "Entity": "Kiribati",
+    "Code": "KIR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Kuwait",
+    "Code": "KWT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001663894
+  },
+  {
+    "Entity": "Latvia",
+    "Code": "LVA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004719455
+  },
+  {
+    "Entity": "Lebanon",
+    "Code": "LBN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.099766628
+  },
+  {
+    "Entity": "Lesotho",
+    "Code": "LSO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Liberia",
+    "Code": "LBR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.534332591
+  },
+  {
+    "Entity": "Libya",
+    "Code": "LBY",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.129703409
+  },
+  {
+    "Entity": "Lithuania",
+    "Code": "LTU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.002536232
+  },
+  {
+    "Entity": "Madagascar",
+    "Code": "MDG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.028736698
+  },
+  {
+    "Entity": "Malaysia",
+    "Code": "MYS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 2.287887324
+  },
+  {
+    "Entity": "Maldives",
+    "Code": "MDV",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Malta",
+    "Code": "MLT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Marshall Islands",
+    "Code": "MHL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Martinique",
+    "Code": "MTQ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.058510638
+  },
+  {
+    "Entity": "Mauritania",
+    "Code": "MRT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.028060097
+  },
+  {
+    "Entity": "Mauritius",
+    "Code": "MUS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Mexico",
+    "Code": "MEX",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.027528689
+  },
+  {
+    "Entity": "Monaco",
+    "Code": "MCO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Montenegro",
+    "Code": "MNE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Morocco",
+    "Code": "MAR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.049352928
+  },
+  {
+    "Entity": "Mozambique",
+    "Code": "MOZ",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.08377791
+  },
+  {
+    "Entity": "Myanmar",
+    "Code": "MMR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.047071885
+  },
+  {
+    "Entity": "Namibia",
+    "Code": "NAM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000801603
+  },
+  {
+    "Entity": "Netherlands",
+    "Code": "NLD",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.015850734
+  },
+  {
+    "Entity": "New Zealand",
+    "Code": "NZL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.014217019
+  },
+  {
+    "Entity": "Nicaragua",
+    "Code": "NIC",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.223800794
+  },
+  {
+    "Entity": "Nigeria",
+    "Code": "NGA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.092752931
+  },
+  {
+    "Entity": "North America",
+    "Code": "",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.120204257
+  },
+  {
+    "Entity": "North Korea",
+    "Code": "PRK",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001948103
+  },
+  {
+    "Entity": "Norway",
+    "Code": "NOR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Oceania",
+    "Code": "",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.086189708
+  },
+  {
+    "Entity": "Oman",
+    "Code": "OMN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000201005
+  },
+  {
+    "Entity": "Pakistan",
+    "Code": "PAK",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004031122
+  },
+  {
+    "Entity": "Palau",
+    "Code": "PLW",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.388888889
+  },
+  {
+    "Entity": "Palestine",
+    "Code": "PSE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.023690022
+  },
+  {
+    "Entity": "Panama",
+    "Code": "PAN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 1.233396138
+  },
+  {
+    "Entity": "Papua New Guinea",
+    "Code": "PNG",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.348564266
+  },
+  {
+    "Entity": "Peru",
+    "Code": "PER",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.007966779
+  },
+  {
+    "Entity": "Philippines",
+    "Code": "PHL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 3.296160641
+  },
+  {
+    "Entity": "Poland",
+    "Code": "POL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000765414
+  },
+  {
+    "Entity": "Portugal",
+    "Code": "PRT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.007432036
+  },
+  {
+    "Entity": "Puerto Rico",
+    "Code": "PRI",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.024207296
+  },
+  {
+    "Entity": "Qatar",
+    "Code": "QAT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Reunion",
+    "Code": "REU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Romania",
+    "Code": "ROU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.004131164
+  },
+  {
+    "Entity": "Russia",
+    "Code": "RUS",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.003715586
+  },
+  {
+    "Entity": "Saint Kitts and Nevis",
+    "Code": "KNA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.018867925
+  },
+  {
+    "Entity": "Saint Lucia",
+    "Code": "LCA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 2.453551913
+  },
+  {
+    "Entity": "Saint Vincent and the Grenadines",
+    "Code": "VCT",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.72972973
+  },
+  {
+    "Entity": "Samoa",
+    "Code": "WSM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Sao Tome and Principe",
+    "Code": "STP",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.358139535
+  },
+  {
+    "Entity": "Saudi Arabia",
+    "Code": "SAU",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.0000875
+  },
+  {
+    "Entity": "Senegal",
+    "Code": "SEN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.010370643
+  },
+  {
+    "Entity": "Seychelles",
+    "Code": "SYC",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Sierra Leone",
+    "Code": "SLE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.463842314
+  },
+  {
+    "Entity": "Singapore",
+    "Code": "SGP",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.028256375
+  },
+  {
+    "Entity": "Slovakia",
+    "Code": "SVK",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Slovenia",
+    "Code": "SVN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.005291005
+  },
+  {
+    "Entity": "Solomon Islands",
+    "Code": "SLB",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.149253731
+  },
+  {
+    "Entity": "Somalia",
+    "Code": "SOM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.000129509
+  },
+  {
+    "Entity": "South Africa",
+    "Code": "ZAF",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.072850849
+  },
+  {
+    "Entity": "South Korea",
+    "Code": "KOR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.007554905
+  },
+  {
+    "Entity": "Spain",
+    "Code": "ESP",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.005028136
+  },
+  {
+    "Entity": "Sri Lanka",
+    "Code": "LKA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.452729319
+  },
+  {
+    "Entity": "Sudan",
+    "Code": "SDN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.002475883
+  },
+  {
+    "Entity": "Suriname",
+    "Code": "SUR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 2.886402754
+  },
+  {
+    "Entity": "Sweden",
+    "Code": "SWE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.003587086
+  },
+  {
+    "Entity": "Syria",
+    "Code": "SYR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.002577622
+  },
+  {
+    "Entity": "Taiwan",
+    "Code": "TWN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.022335324
+  },
+  {
+    "Entity": "Tanzania",
+    "Code": "TZA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.099732782
+  },
+  {
+    "Entity": "Thailand",
+    "Code": "THA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.327550053
+  },
+  {
+    "Entity": "Togo",
+    "Code": "TGO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.053947043
+  },
+  {
+    "Entity": "Tonga",
+    "Code": "TON",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  },
+  {
+    "Entity": "Trinidad and Tobago",
+    "Code": "TTO",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 2.549820789
+  },
+  {
+    "Entity": "Tunisia",
+    "Code": "TUN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.058828559
+  },
+  {
+    "Entity": "Turkey",
+    "Code": "TUR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.171748771
+  },
+  {
+    "Entity": "Ukraine",
+    "Code": "UKR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.01952539
+  },
+  {
+    "Entity": "United Arab Emirates",
+    "Code": "ARE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.001432811
+  },
+  {
+    "Entity": "United Kingdom",
+    "Code": "GBR",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.010410188
+  },
+  {
+    "Entity": "United States",
+    "Code": "USA",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.007387598
+  },
+  {
+    "Entity": "Uruguay",
+    "Code": "URY",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.288272675
+  },
+  {
+    "Entity": "Venezuela",
+    "Code": "VEN",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.209987376
+  },
+  {
+    "Entity": "Vietnam",
+    "Code": "VNM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.292560801
+  },
+  {
+    "Entity": "Western Sahara",
+    "Code": "ESH",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.065292096
+  },
+  {
+    "Entity": "World",
+    "Code": "OWID_WRL",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.126980239
+  },
+  {
+    "Entity": "Yemen",
+    "Code": "YEM",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0.008641383
+  },
+  {
+    "Entity": "Zimbabwe",
+    "Code": "ZWE",
+    "Year": 2019,
+    "Mismanaged plastic waste to ocean per capita (kg per year)": 0
+  }
+]

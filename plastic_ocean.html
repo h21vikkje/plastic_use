@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plastavfall till haven år 2019</title>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+</head>
+<body>
+
+<div id="container" style="width: 100%; height: 800px;"></div>
+
+<script>
+// Läs in din JSON-data
+fetch('diagram/plastic-ocean.json')
+    .then(response => response.json())
+    .then(rawData => {
+        let structuredData = {};
+        rawData.forEach(item => {
+            if (item.Code && item.Code != '') { // Endast inkludera poster med en giltig landskod
+                let year = item.Year;
+                let code = item.Code;
+                let value = item['Mismanaged plastic waste to ocean per capita (kg per year)'];
+                
+                if (!structuredData[year]) {
+                    structuredData[year] = [];
+                }
+                structuredData[year].push({ code: code, value: value });
+            }
+        });
+
+        // Skapa Highcharts-karta med den bearbetade datan
+        Highcharts.mapChart('container', {
+            chart: {
+                map: 'custom/world'
+            },
+            title: {
+                text: 'Plastavfall till haven år 2019'
+            },
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+            plotOptions: {
+                series: {
+                    borderColor: 'black', // Ändra till önskad gränsfärg
+                    borderWidth: 1, // Ändra för att justera bredden på gränserna
+                    nullColor: 'transparent' // Används för länder utan data
+                }
+            },
+
+            colorAxis: {
+                dataClasses: [{
+                    from: -1,
+                    to: 0,
+                    name: 'Värde saknas',
+                    color: "#dedede"
+                },{
+                    from: 0,
+                    to: 0.01,
+                    color: "#acceff", // Färg för 0 kg till 0,01 kg
+                    name: '0 - 0.01 kg'
+                }, {
+                    from: 0.01,
+                    to: 0.1,
+                    color: "#237fff", // Färg för 0,01 kg till 0,1 kg
+                    name: '0.01 - 0.1 kg'
+                }, {
+                    from: 0.1,
+                    to: 1,
+                    color: "#0059d7", // Färg för 0,1 kg till 1 kg
+                    name: '0.1 - 1 kg'
+                },
+                {
+                    from: 1,
+                    color: "#003a8c", // Färg för över 1 kg
+                }]
+            },
+            
+            series: [{
+                data: structuredData[2019], // Exempel för år 2019
+                joinBy: ['iso-a3', 'code'],
+                name: 'Plastavfall (kg per person)',
+                states: {
+                    hover: {
+                        color: '#d49050'
+                    }
+                },
+            }],
+        });
+    })
+    .catch(error => {
+        console.error('Error loading the data:', error);
+    });
+</script>
+
+</body>
+</html>

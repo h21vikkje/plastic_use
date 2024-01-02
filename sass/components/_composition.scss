@@ -1,0 +1,19 @@
+.composition {
+    position: relative;
+    margin: 0 auto;
+
+    iframe {
+        width: 100%;
+        position: relative;
+        top: -2rem;
+        margin-top: -50rem;
+        justify-content: center;
+    }
+
+    .paragraph {
+        width: 100%;
+        position: relative;
+        top: -2rem;
+    }
+    
+}
